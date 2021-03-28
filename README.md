@@ -8,4 +8,6 @@ Welcome to my page!
 # Omikuji
 Your fortune for today!
 
+<!-- Omikuji Start -->
 ![omikuji](gif/anim1.gif)
+<!-- Omikuji End -->
