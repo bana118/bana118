@@ -1,7 +1,7 @@
 name: Update Github README
 on:
   schedule:
-    - cron: '30 4 * * *'
+    - cron: '30 * * * *'
 
 jobs:
   build:
