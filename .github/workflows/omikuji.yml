@@ -1,7 +1,5 @@
 name: Update Github README
-on:
-  schedule:
-    - cron: '30 * * * *'
+on: push
 
 jobs:
   build:
