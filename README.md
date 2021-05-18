@@ -7,11 +7,11 @@ Welcome to my page!
 
 # Contribution
 
-![contribution](./profile-3d-contrib/profile-green-animate.svg)
+![contribution](./profile-3d-contrib/profile-season-animate.svg)
 
 # Omikuji
 Your fortune for today!
 
 <!-- Omikuji Start -->
-![omikuji](gif/anim1.gif)
+![omikuji](gif/anim3.gif)
 <!-- Omikuji End -->
