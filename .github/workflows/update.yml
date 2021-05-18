@@ -28,7 +28,7 @@ jobs:
       - name: Commit and push if changed
         run: |-
           git diff
-          git config --global user.name "Omikuji Bot"
+          git config --global user.name "README Bot"
           git add -A
-          git commit -m "Update Omikuji" || exit 0
+          git commit -m "Update README" || exit 0
           git push
