@@ -1,7 +1,9 @@
 name: Update Github README
+
 on:
   schedule:
     - cron: '0 15 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -14,10 +16,15 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - name: Update README
+      - name: Update Omikuji
         run: |-
           python omikuji.py
           cat README.md
+      - name: Update contribution
+        uses: yoshi389111/github-profile-3d-contrib@0.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
       - name: Commit and push if changed
         run: |-
           git diff
