@@ -13,5 +13,5 @@ Welcome to my page!
 Your fortune for today!
 
 <!-- Omikuji Start -->
-![omikuji](gif/anim4.gif)
+![omikuji](gif/anim2.gif)
 <!-- Omikuji End -->
